@@ -31,13 +31,14 @@ function Signup() {
          .then((res) => {
             console.log(res);
             alert("Registered successfully...");
+            navigate('/login');
          })
          .catch((err) => {
             console.log(err);
-            alert("Failed to add user...")
+            alert("Failed to add user...");
          })
       
-      navigate('/login'); 
+       
    };
 
    return (
