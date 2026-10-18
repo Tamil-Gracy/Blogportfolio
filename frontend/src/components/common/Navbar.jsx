@@ -33,7 +33,7 @@ function Navbar() {
          <div className='flex flex-wrap items-center justify-end gap-x-1 gap-y-2 sm:gap-x-3'>
             <Link className='rounded-full px-3 py-2 text-sm font-semibold text-stone-600 transition hover:bg-orange-50 hover:text-orange-600 sm:px-4' to={"/home"}>Home</Link>
             <Link className='rounded-full px-3 py-2 text-sm font-semibold text-stone-600 transition hover:bg-orange-50 hover:text-orange-600 sm:px-4' to={"/blogs"}>Blogs</Link>
-            <Link className='rounded-full px-3 py-2 text-sm font-semibold text-stone-600 transition hover:bg-orange-50 hover:text-orange-600 sm:px-4'>About</Link>
+            <Link className='rounded-full px-3 py-2 text-sm font-semibold text-stone-600 transition hover:bg-orange-50 hover:text-orange-600 sm:px-4' to={"/about"}>About</Link>
           
             {
                isUserLoggedIn ?
