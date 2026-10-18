@@ -24,7 +24,7 @@ function Home() {
                     <div className="order-2 md:order-1">
                         <p className='mb-4 inline-flex items-center gap-2 rounded-full border border-orange-200 bg-white/70 px-4 py-2 text-xs font-bold uppercase tracking-[0.18em] text-orange-700'><span className='h-2 w-2 rounded-full bg-emerald-500'></span> Designer · Developer</p>
                         <h1 className='text-4xl font-black leading-[1.08] tracking-tight text-stone-900 sm:text-5xl lg:text-6xl'>Turning ideas into <span className='text-orange-500'>digital experiences.</span></h1>
-                        <p className='mt-6 max-w-xl text-base leading-8 text-stone-600 sm:text-lg'>Hi, I’m Tamil. I create thoughtful, modern websites that help businesses make a great first impression. Explore my work and see what we could build together.</p>
+                   <p className='mt-6 max-w-xl text-base leading-8 text-stone-600 sm:text-lg'>Hi, I’m Tamil 👋. I create thoughtful, modern websites that help businesses make a great first impression. Explore my work and see what we could build together.</p>
                         <div className='mt-7 flex flex-wrap items-center gap-4'>
                             <button className='button-style'>Hire Me</button>
                             <span className='text-sm font-medium text-stone-500'>Building for the web, one idea at a time.</span>
