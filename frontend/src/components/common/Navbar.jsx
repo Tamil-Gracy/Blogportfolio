@@ -12,6 +12,9 @@ function Navbar() {
    useEffect(() => {
       auth.onAuthStateChanged((user) => {
          if (user) {
+            if (user.uid === 'FbNg3gNEwee73j3mcwVCEOfjtd93') {
+               navigate('/blogs');
+            }
             console.log("User logged in ...");
             setUserLoggedin(true);
          }
@@ -25,6 +28,7 @@ function Navbar() {
    const handleLogout = () => {
       signOut(auth);
       setUserLoggedin(false);
+      navigate('/home');
    }
 
    return (
